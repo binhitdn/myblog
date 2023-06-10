@@ -3,6 +3,7 @@ import 'prismjs/themes/prism-tomorrow.css';
 import 'react-notion-x/src/styles.css';
 
 import Header from '@/components/header/header';
+import Footer from '@/components/footer/footer';
 import Provider from '@/components/provider';
 import ScrollUpButton from '@/components/scroll-up-button';
 import '@/styles/globals.css';
@@ -29,6 +30,7 @@ export default function RootLayout({
           <div className="fixed bottom-12 right-10">
             <ScrollUpButton />
           </div>
+          <Footer />
         </Provider>
       </body>
     </html>
